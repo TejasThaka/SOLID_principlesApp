@@ -9,6 +9,6 @@ class Program
         IInvoiceSender emailSender = new EmailSender(); // Switch with PrintSender to print
 
         OrderProcessor orderProcessor = new OrderProcessor(invoiceGenerator, emailSender);
-        orderProcessor.ProcessOrder("Order123.....");
+        orderProcessor.ProcessOrder("Order123...............");
     }
 }
